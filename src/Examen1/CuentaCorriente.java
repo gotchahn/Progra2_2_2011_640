@@ -65,7 +65,7 @@ public class CuentaCorriente extends Cuenta{
         return 0;
     }
 
-    public void imprimir(){
+    public final void imprimir(){
         super.imprimir();
         System.out.println("activo: " + isActiva);
 
